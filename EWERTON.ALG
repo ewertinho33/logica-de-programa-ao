@@ -1,26 +1,24 @@
-Algoritmo "ewerton"
+Algoritmo "semnome"
 // Disciplina  :  [Linguagem e Lógica de Programação] 
 // Professor   : Antonio Carlos Nicolodi 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 22/03/2023
+// Autor(a)    : ewerton de jesus ramos
+// Data atual  : 04/04/2023
 Var
-nome :caractere
-idade :inteiro
-nota1 , nota2 , nota3 , nota4 , media:real
-inicio
-escreva("seu nome->")
-leia(nome)
-escreva("sua idade->")
-leia(idade)
-escreva("sua nota 1 bimestre:")
-leia(nota1)
-escreva("sua nota 2 bimestre:")
-leia(nota2)
-escreva("sua nota 3 bimestre:")
-leia(nota3)
-escreva("sua nota 4 bimestre:")
-leia(nota4)
-media <- (nota1+nota2+nota3+nota4)/4
-escreva (nome,"sua media final é de:", media)
-Fimalgoritmo
+a, b , c:real
+
+
+
+Inicio
+  escreva("coloque um numero:")
+  leia(a)
+  escreva("coloque outro numero")
+  leia(b)
+  se (a=b) entao
+    c <- a + b
+    escreval ("valores iguais soma , entao fica " , a , " +" , b , " =" , c)
+   senao
+     c <- a * b
+     escreval ("valores diferentes multiplica , entao fica" , a , " ." , b, "=" , c)
+     fimse
+     fimalgoritmo
